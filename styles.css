@@ -1,0 +1,173 @@
+body{
+    text-align: center;
+}
+/* Navbar Customize */
+
+.navbar-brand{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    margin:20px ;
+}
+
+.nav-link{
+    color: #ffffffd5;
+}
+
+#navbarSupportedContent{
+    margin-left: 60%;
+    }
+#navbar-tindog{
+    padding-bottom: 5rem ;
+    }
+
+/* Landing Page */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+
+}
+    
+/* Headings */
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 2% 0 0;
+}
+
+
+/* Feature Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    margin-bottom:1rem ;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+    
+}
+
+/* Tetimonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    border: 1px solid;
+}
+
+#press{
+    padding-bottom:3% ;
+    background-color: #ef8172;
+
+}
+.press-icon{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* Footer Section */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+#footer{
+    padding: 7% 15% 3%;
+
+}
+.icon-footer{
+    padding: 20px 10px;
+}
+
+/* Break Points Code (Responsive) */
+@media(max-width:1060px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-top: 20px;
+    }
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
